@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact LensLink Photography to enquire about your wedding or event coverage." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f5f3f2" />
+    <title>Contact | LensLink Photography</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact | LensLink Photography" />
+    <meta property="og:description" content="Enquire about wedding photography, films, or keepsakes with LensLink Photography." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&amp;fit=crop&amp;w=1200&amp;q=75" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contact | LensLink Photography" />
+    <meta name="twitter:description" content="Enquire about wedding photography, films, or keepsakes with LensLink Photography." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=4" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="LensLink Photography home">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">LensLink Photography</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav-button" href="contact.html">Book now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-head">
+        <div class="container page-head-inner">
+          <div>
+            <p class="eyebrow accent">Contact</p>
+            <h1>Let’s plan your celebration.</h1>
+          </div>
+          <p>
+            Share your wedding date, story, and preferred coverage so we can start building a thoughtful photography plan around your day.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container contact-grid">
+          <aside class="contact-card">
+            <p class="eyebrow accent">What to share</p>
+            <h2>We’ll shape the right package for you.</h2>
+            <ul>
+              <li>Preferred wedding date</li>
+              <li>Venue or location</li>
+              <li>Estimated guest count</li>
+              <li>Your style and reference inspiration</li>
+            </ul>
+          </aside>
+
+          <div class="contact-card">
+            <form class="contact-form form-grid">
+              <div class="field-row">
+                <label>
+                  Full name
+                  <input type="text" name="name" placeholder="Your name" />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" placeholder="you@example.com" />
+                </label>
+              </div>
+
+              <div class="field-row">
+                <label>
+                  Wedding date
+                  <input type="text" name="date" placeholder="MM / DD / YYYY" />
+                </label>
+                <label>
+                  Service type
+                  <select name="service">
+                    <option>Wedding photography</option>
+                    <option>Wedding film</option>
+                    <option>Albums &amp; prints</option>
+                    <option>Custom enquiry</option>
+                  </select>
+                </label>
+              </div>
+
+              <label>
+                Tell us about your day
+                <textarea name="message" placeholder="Share your plans, venue, and vision..."></textarea>
+              </label>
+
+              <button type="submit" class="button primary">Send enquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand footer-brand" href="index.html">
+            <span class="brand-mark">L</span>
+            <span class="brand-text">LensLink Photography</span>
+          </a>
+          <p class="footer-copy">© <span id="year"></span> LensLink Photography.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js?v=2" defer></script>
+  </body>
+</html>
